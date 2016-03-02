@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIBFramework.Entities.Sampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPSFramework.DAL.Mappings.Sample", "EPSFramework.DAL.Mappings.Sample\EPSFramework.DAL.Mappings.Sample.csproj", "{A8D0CDF1-FC2C-4D55-850F-F8DE7F5D18C5}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EPSFramework.DAL.DatabaseSample", "EPSFramework.DAL.DatabaseSample\EPSFramework.DAL.DatabaseSample.sqlproj", "{D922C692-36FB-40C9-8D54-E6B6D235FC9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,12 @@ Global
 		{A8D0CDF1-FC2C-4D55-850F-F8DE7F5D18C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8D0CDF1-FC2C-4D55-850F-F8DE7F5D18C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8D0CDF1-FC2C-4D55-850F-F8DE7F5D18C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D922C692-36FB-40C9-8D54-E6B6D235FC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D922C692-36FB-40C9-8D54-E6B6D235FC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D922C692-36FB-40C9-8D54-E6B6D235FC9D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D922C692-36FB-40C9-8D54-E6B6D235FC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D922C692-36FB-40C9-8D54-E6B6D235FC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D922C692-36FB-40C9-8D54-E6B6D235FC9D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,5 +51,6 @@ Global
 		{931D25B2-E282-476F-ABBC-55E9CF8AEC00} = {617C73A8-7B18-4AFA-AFFD-D5E3C5E7FC5A}
 		{6FE47977-6C6B-43A8-8604-DD99A17CF7F8} = {617C73A8-7B18-4AFA-AFFD-D5E3C5E7FC5A}
 		{A8D0CDF1-FC2C-4D55-850F-F8DE7F5D18C5} = {617C73A8-7B18-4AFA-AFFD-D5E3C5E7FC5A}
+		{D922C692-36FB-40C9-8D54-E6B6D235FC9D} = {617C73A8-7B18-4AFA-AFFD-D5E3C5E7FC5A}
 	EndGlobalSection
 EndGlobal
