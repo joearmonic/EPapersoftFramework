@@ -30,12 +30,115 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="iAnywhere.Data.SQLAnywhere, Version=11.0.1.29602, Culture=neutral, PublicKeyToken=f222fc4333e0d400, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Third Parties\Sybase\11\V2\iAnywhere.Data.SQLAnywhere.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ADONetCommandProcedure.cs" />
+    <Compile Include="ADONetRepository{TEntity}.cs" />
+    <Compile Include="BaseEntityTable.cs" />
+    <Compile Include="BaseTableMapping.cs" />
+    <Compile Include="Column.cs" />
+    <Compile Include="Convert2\ComputedConvert2.cs" />
+    <Compile Include="Convert2\SafeResultConvert2.cs" />
+    <Compile Include="Core\BaseExpressionVisitor.cs" />
+    <Compile Include="Core\BaseQueryBuilder.cs" />
+    <Compile Include="Core\BaseRepository.cs" />
+    <Compile Include="Core\DALException.cs" />
+    <Compile Include="Core\DataBaseProviderFactory.cs" />
+    <Compile Include="Core\Providers\DataProvider.cs" />
+    <Compile Include="Core\Providers\SA\SAQuerybuilder.cs" />
+    <Compile Include="Core\Providers\SqlServer\SqlQuerybuilder.cs" />
+    <Compile Include="Core\QueryBuilders\Evaluator.cs" />
+    <Compile Include="Core\QueryBuilders\Nominator.cs" />
+    <Compile Include="Core\QueryBuilders\QueryTranslator.cs" />
+    <Compile Include="Core\QueryBuilders\SubtreeEvaluator.cs" />
+    <Compile Include="Core\SA\SAProviderFactory.cs" />
+    <Compile Include="Core\SqlServer\SqlProviderFactory.cs" />
+    <Compile Include="EntityAnnotations\IdentityAttribute.cs" />
+    <Compile Include="EntityAnnotations\MapsSourceAttribute.cs" />
+    <Compile Include="EntityAnnotations\TableNameAttribute.cs" />
+    <Compile Include="IConvert2.cs" />
+    <Compile Include="IDatabaseProcedurable.cs" />
+    <Compile Include="IDataBaseProvider.cs" />
+    <Compile Include="IDataProviderFactory.cs" />
+    <Compile Include="IInitializable.cs" />
+    <Compile Include="IRepository.cs" />
+    <Compile Include="ITransactionHandler.cs" />
+    <Compile Include="ITransactionService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableMappingFactory.cs" />
+    <Compile Include="TransactionKeeper.cs" />
+    <Compile Include="TransactionService.cs" />
+    <Compile Include="TypeReflectExtension.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dbcoen11.chm" />
+    <None Include="Third Parties\Sybase\11\V2\iAnywhere.Data.SQLAnywhere.config" />
+    <None Include="Third Parties\Sybase\11\V3.5\iAnywhere.Data.SQLAnywhere.v3.5.config" />
+    <None Include="Third Parties\Sybase\11\V4\iAnywhere.Data.SQLAnywhere.v4.0.config" />
+    <None Include="Third Parties\Sybase\InstallService.cmd" />
+    <None Include="Third Parties\Sybase\launch.cmd" />
+    <None Include="Third Parties\Sybase\RegisterSybase.cmd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dbcon11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dblgde11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dblgen11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dblges11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dblgfr11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dblgit11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dblgja11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dblgko11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dblglt11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dblgpl11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dblgpt11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dblgru11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dblgtw11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dblguk11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dblgzh11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dbodbc11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dboledb11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dboledba11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin32\dboraodbc11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dbcon11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dblgde11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dblgen11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dblges11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dblgfr11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dblgit11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dblgja11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dblgko11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dblglt11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dblgpl11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dblgpt11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dblgru11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dblgtw11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dblguk11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dblgzh11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dbodbc11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dboledb11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dboledba11.dll" />
+    <Content Include="Third Parties\Sybase\11\SQL Anywhere 11 ODBC Driver\Bin64\dboraodbc11.dll" />
+    <Content Include="Third Parties\Sybase\11\V2\iAnywhere.Data.SQLAnywhere.dll" />
+    <Content Include="Third Parties\Sybase\11\V2\iAnywhere.Data.SQLAnywhere.xml" />
+    <Content Include="Third Parties\Sybase\11\V2\iAnywhere.Web.Security.dll" />
+    <Content Include="Third Parties\Sybase\11\V2\policy.11.0.iAnywhere.Data.SQLAnywhere.dll" />
+    <Content Include="Third Parties\Sybase\11\V3.5\iAnywhere.Data.SQLAnywhere.v3.5.dll" />
+    <Content Include="Third Parties\Sybase\11\V3.5\iAnywhere.Data.SQLAnywhere.v3.5.xml" />
+    <Content Include="Third Parties\Sybase\11\V3.5\policy.11.0.iAnywhere.Data.SQLAnywhere.v3.5.dll" />
+    <Content Include="Third Parties\Sybase\11\V4\iAnywhere.Data.SQLAnywhere.v4.0.dll" />
+    <Content Include="Third Parties\Sybase\11\V4\iAnywhere.Data.SQLAnywhere.v4.0.xml" />
+    <Content Include="Third Parties\Sybase\11\V4\policy.11.0.iAnywhere.Data.SQLAnywhere.v4.0.dll" />
+    <Content Include="Third Parties\Sybase\9\dbdata9.dll" />
+    <Content Include="Third Parties\Sybase\9\dblgen9.dll" />
+    <Content Include="Third Parties\Sybase\9\iAnywhere.Data.AsaClient.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

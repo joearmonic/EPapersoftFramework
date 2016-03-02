@@ -32,6 +32,12 @@ namespace EPSFramework.DAL.Core
 
         public abstract BaseQueryBuilder CreateQueryBuilder(BaseEntityTable entity);
 
+        public IDatabaseProcedurable CreateCommandProcedure()
+        {
+            ADONetCommandProcedure commandProcedure = new ADONetCommandProcedure(this);
+            return commandProcedure;
+        }
+
         internal abstract DbConnection CreateConnection(string conn = null);
 
         internal abstract DbCommand CreateCommand(string sqlQuery, DbConnection conn);
