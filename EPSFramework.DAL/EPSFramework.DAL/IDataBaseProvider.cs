@@ -27,12 +27,6 @@ namespace EPSFramework.DAL
 
         DALException CurrentException { get; }
 
-        // List<Dictionary<String, Object>> ExecQueryInTran(string sql, Dictionary<string, object> parameters = null, System.Data.CommandType cmdType = System.Data.CommandType.Text);
-
-        // int ExecNonQueryInTran(String sql, Dictionary<string, object> parameters, System.Data.CommandType cmdType = System.Data.CommandType.Text);
-
-        // Object ExecScalarInTran(string sql, Dictionary<string, object> parameters = null, System.Data.CommandType cmdType = System.Data.CommandType.Text);
-
         List<Dictionary<String, Object>> ExecuteQuery(String sql, Dictionary<string, object> parameters = null, System.Data.CommandType cmdType = System.Data.CommandType.Text);
 
         int ExecuteNonQuery(String sql, Dictionary<string, object> parameters, System.Data.CommandType cmdType = System.Data.CommandType.Text);

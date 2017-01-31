@@ -17,5 +17,7 @@ namespace EPSFramework.DAL
         ITransactionService CreateTransactionService(TableMappingFactory mappingFactory);
 
         BaseQueryBuilder CreateQueryBuilder(BaseEntityTable entity);
+
+        IDatabaseProcedurable CreateCommandProcedure();
     }
 }

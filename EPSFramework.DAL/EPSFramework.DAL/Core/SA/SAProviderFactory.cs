@@ -75,5 +75,10 @@ namespace EPSFramework.DAL.Core.SA
 
             return SADbType.VarChar;
         }
+
+        public IDatabaseProcedurable CreateCommandProcedure()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

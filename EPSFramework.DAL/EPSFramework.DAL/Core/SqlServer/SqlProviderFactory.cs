@@ -14,6 +14,7 @@ namespace EPSFramework.DAL.Core.SqlServer
     using System.Data.SqlClient;
     using Providers.SqlServer;
     using Providers;
+    using System;
 
     public class SqlProviderFactory : DataBaseProviderFactory, IDataProviderFactory
     {
@@ -76,6 +77,11 @@ namespace EPSFramework.DAL.Core.SqlServer
             }
 
             return SqlDbType.VarChar;
+        }
+
+        public IDatabaseProcedurable CreateCommandProcedure()
+        {
+            throw new NotImplementedException();
         }
     }
 }

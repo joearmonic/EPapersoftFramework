@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPSFramework.DAL", "EPSFramework.DAL\EPSFramework.DAL.csproj", "{179C4668-BB2E-4B6F-8D54-5F6B623A43CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Solutions", "Test Solutions", "{617C73A8-7B18-4AFA-AFFD-D5E3C5E7FC5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPSFramework.DAL.TestConsole", "EPSFramework.DAL.TestConsole\EPSFramework.DAL.TestConsole.csproj", "{931D25B2-E282-476F-ABBC-55E9CF8AEC00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIBFramework.Entities.Sample", "EPSFramework.DAL.Entities.Sample\TIBFramework.Entities.Sample.csproj", "{6FE47977-6C6B-43A8-8604-DD99A17CF7F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPSFramework.DAL.Mappings.Sample", "EPSFramework.DAL.Mappings.Sample\EPSFramework.DAL.Mappings.Sample.csproj", "{A8D0CDF1-FC2C-4D55-850F-F8DE7F5D18C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{179C4668-BB2E-4B6F-8D54-5F6B623A43CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{179C4668-BB2E-4B6F-8D54-5F6B623A43CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{179C4668-BB2E-4B6F-8D54-5F6B623A43CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{179C4668-BB2E-4B6F-8D54-5F6B623A43CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{931D25B2-E282-476F-ABBC-55E9CF8AEC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931D25B2-E282-476F-ABBC-55E9CF8AEC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931D25B2-E282-476F-ABBC-55E9CF8AEC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{931D25B2-E282-476F-ABBC-55E9CF8AEC00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE47977-6C6B-43A8-8604-DD99A17CF7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE47977-6C6B-43A8-8604-DD99A17CF7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE47977-6C6B-43A8-8604-DD99A17CF7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE47977-6C6B-43A8-8604-DD99A17CF7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D0CDF1-FC2C-4D55-850F-F8DE7F5D18C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D0CDF1-FC2C-4D55-850F-F8DE7F5D18C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D0CDF1-FC2C-4D55-850F-F8DE7F5D18C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D0CDF1-FC2C-4D55-850F-F8DE7F5D18C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{931D25B2-E282-476F-ABBC-55E9CF8AEC00} = {617C73A8-7B18-4AFA-AFFD-D5E3C5E7FC5A}
+		{6FE47977-6C6B-43A8-8604-DD99A17CF7F8} = {617C73A8-7B18-4AFA-AFFD-D5E3C5E7FC5A}
+		{A8D0CDF1-FC2C-4D55-850F-F8DE7F5D18C5} = {617C73A8-7B18-4AFA-AFFD-D5E3C5E7FC5A}
+	EndGlobalSection
+EndGlobal
