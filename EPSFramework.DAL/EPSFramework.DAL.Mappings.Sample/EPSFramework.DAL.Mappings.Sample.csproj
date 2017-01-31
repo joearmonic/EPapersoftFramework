@@ -50,9 +50,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EPSFramework.DAL.Entities.Sample\TIBFramework.Entities.Sample.csproj">
+    <ProjectReference Include="..\EPSFramework.DAL.Entities.Sample\EPSFramework.Entities.Sample.csproj">
       <Project>{6fe47977-6c6b-43a8-8604-dd99a17cf7f8}</Project>
-      <Name>TIBFramework.Entities.Sample</Name>
+      <Name>EPSFramework.Entities.Sample</Name>
     </ProjectReference>
     <ProjectReference Include="..\EPSFramework.DAL\EPSFramework.DAL.csproj">
       <Project>{179c4668-bb2e-4b6f-8d54-5f6b623a43cb}</Project>
