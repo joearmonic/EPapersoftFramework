@@ -51,9 +51,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EPSFramework.DAL.Entities.Sample\TIBFramework.Entities.Sample.csproj">
+    <ProjectReference Include="..\EPSFramework.DAL.Entities.Sample\EPSFramework.Entities.Sample.csproj">
       <Project>{6fe47977-6c6b-43a8-8604-dd99a17cf7f8}</Project>
-      <Name>TIBFramework.Entities.Sample</Name>
+      <Name>EPSFramework.Entities.Sample</Name>
     </ProjectReference>
     <ProjectReference Include="..\EPSFramework.DAL.Mappings.Sample\EPSFramework.DAL.Mappings.Sample.csproj">
       <Project>{a8d0cdf1-fc2c-4d55-850f-f8de7f5d18c5}</Project>
