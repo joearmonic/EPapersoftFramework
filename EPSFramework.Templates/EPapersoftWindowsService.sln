@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPapersoftWindowsService.IoC", "EPapersoftWindowsService.IoC\EPapersoftWindowsService.IoC.csproj", "{BF10AA47-A838-42E1-9096-7D37480C33F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPapersoftWindowsService", "EPapersoftWindowsService\EPapersoftWindowsService.csproj", "{9F24CB5B-7230-4891-A605-76CF6AAC56BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPapersoftWindowsService.FileWriter", "EPapersoftWindowsService.FileWriter\EPapersoftWindowsService.FileWriter.csproj", "{EA0C2076-6825-4254-B0D4-7DF0D9FFBEA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF10AA47-A838-42E1-9096-7D37480C33F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF10AA47-A838-42E1-9096-7D37480C33F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF10AA47-A838-42E1-9096-7D37480C33F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF10AA47-A838-42E1-9096-7D37480C33F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F24CB5B-7230-4891-A605-76CF6AAC56BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F24CB5B-7230-4891-A605-76CF6AAC56BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F24CB5B-7230-4891-A605-76CF6AAC56BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F24CB5B-7230-4891-A605-76CF6AAC56BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0C2076-6825-4254-B0D4-7DF0D9FFBEA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0C2076-6825-4254-B0D4-7DF0D9FFBEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0C2076-6825-4254-B0D4-7DF0D9FFBEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0C2076-6825-4254-B0D4-7DF0D9FFBEA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
