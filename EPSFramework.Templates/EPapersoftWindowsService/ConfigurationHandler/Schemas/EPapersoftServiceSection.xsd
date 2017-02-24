@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:simpleType name="daysOfWeekType">
-    <xs:restriction base="xs:string">
-      <xs:enumeration value="Monday"></xs:enumeration>
-      <xs:enumeration value="Tuesday"></xs:enumeration>
-      <xs:enumeration value="Wednesday"></xs:enumeration>
-      <xs:enumeration value="Thursday"></xs:enumeration>
-      <xs:enumeration value="Friday"></xs:enumeration>
-      <xs:enumeration value="Saturday"></xs:enumeration>
-      <xs:enumeration value="Sunday"></xs:enumeration>
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:element name="eps.service">
+	<xs:simpleType name="daysOfWeekType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Monday"></xs:enumeration>
+			<xs:enumeration value="Tuesday"></xs:enumeration>
+			<xs:enumeration value="Wednesday"></xs:enumeration>
+			<xs:enumeration value="Thursday"></xs:enumeration>
+			<xs:enumeration value="Friday"></xs:enumeration>
+			<xs:enumeration value="Saturday"></xs:enumeration>
+			<xs:enumeration value="Sunday"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="eps.service">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="workers">
@@ -54,8 +54,8 @@
 														<xs:complexType>
 															<xs:sequence>
 																<xs:element maxOccurs="7" name="dayofweek">
-                                  <xs:complexType>
-                                    <xs:attribute name="name" use="required" type="daysOfWeekType">
+																	<xs:complexType>
+																		<xs:attribute name="name" use="required" type="daysOfWeekType">
 																		</xs:attribute>
 																	</xs:complexType>
 																</xs:element>
