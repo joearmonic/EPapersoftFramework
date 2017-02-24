@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="daysOfWeekType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Monday"></xs:enumeration>
+      <xs:enumeration value="Tuesday"></xs:enumeration>
+      <xs:enumeration value="Wednesday"></xs:enumeration>
+      <xs:enumeration value="Thursday"></xs:enumeration>
+      <xs:enumeration value="Friday"></xs:enumeration>
+      <xs:enumeration value="Saturday"></xs:enumeration>
+      <xs:enumeration value="Sunday"></xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="eps.service">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="workers">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="worker" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="programming" maxOccurs="1">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="cycle" minOccurs="0" maxOccurs="1">
+														<xs:complexType>
+															<xs:attribute name="time" type="xs:unsignedInt" use="required" />
+															<xs:attribute name="unit" use="required">
+																<xs:simpleType>
+																	<xs:restriction base="xs:string">
+																		<xs:enumeration value="milliseconds"></xs:enumeration>
+																		<xs:enumeration value="seconds"></xs:enumeration>
+																		<xs:enumeration value="minutes"></xs:enumeration>
+																		<xs:enumeration value="hours"></xs:enumeration>
+																	</xs:restriction>
+																</xs:simpleType>
+															</xs:attribute>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="appointment" minOccurs="0" maxOccurs="1">
+														<xs:complexType>
+															<xs:attribute name="hour" type="xs:unsignedInt" use="required" />
+															<xs:attribute name="minute" type="xs:unsignedInt" use="required" />
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="until" minOccurs="0" maxOccurs="1">
+														<xs:complexType>
+															<xs:attribute name="hour" type="xs:unsignedInt" use="required" />
+															<xs:attribute name="minute" type="xs:unsignedInt" use="required" />
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="daysofweek" minOccurs="0" maxOccurs="1">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element maxOccurs="7" name="dayofweek">
+                                  <xs:complexType>
+                                    <xs:attribute name="name" use="required" type="daysOfWeekType">
+																		</xs:attribute>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="period" use="required">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:enumeration value="DefinedInterval"></xs:enumeration>
+															<xs:enumeration value="DayInterval"></xs:enumeration>
+															<xs:enumeration value="WeeklyInterval"></xs:enumeration>															
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>																										
+									<xs:attribute name="id" type="xs:unsignedInt" use="required" />
+									<xs:attribute name="name" type="xs:string" use="required" />
+									<xs:attribute name="factory" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
