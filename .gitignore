@@ -2,12 +2,9 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Templates design
-/EPSFramework.DAL - copia
 /suo
 /packages
 *.suo
-/EPSFramework.DAL/EPSFramework.DAL.Entities_mappings.rar
 /EPSFramework.DAL/EPSFramework.DAL.TestConsole/bin/Debug
 /EPSFramework.DAL/EPSFramework.DAL.TestConsole/obj/Debug
 *.user
@@ -20,7 +17,6 @@
 /EPSFramework.DAL/EPSFramework.DAL/obj/Debug
 /EPSFramework.DAL/EPSFramework.DAL/bin/Debug
 /Backup/
-*.dbmdl
 /EPSFramework.Templates/EPapersoftWindowsService/bin/Debug
 /EPSFramework.Templates/EPapersoftWindowsService/obj/Debug
 /EPSFramework.Templates/EPapersoftWindowsService.FileWriter/bin/Debug
