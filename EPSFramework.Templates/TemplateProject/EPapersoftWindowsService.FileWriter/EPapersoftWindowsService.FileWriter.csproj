@@ -7,8 +7,8 @@
     <ProjectGuid>{EA0C2076-6825-4254-B0D4-7DF0D9FFBEA2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EPapersoftWindowsService.FileWriter</RootNamespace>
-    <AssemblyName>EPapersoftWindowsService.FileWriter</AssemblyName>
+    <RootNamespace>$safeprojectname$.FileWriter</RootNamespace>
+    <AssemblyName>$safeprojectname$.FileWriter</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -52,7 +52,7 @@
   <ItemGroup>
     <ProjectReference Include="..\EPapersoftWindowsService\EPapersoftWindowsService.csproj">
       <Project>{9f24cb5b-7230-4891-a605-76cf6aac56bd}</Project>
-      <Name>EPapersoftWindowsService</Name>
+      <Name>%24safeprojectname%24</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

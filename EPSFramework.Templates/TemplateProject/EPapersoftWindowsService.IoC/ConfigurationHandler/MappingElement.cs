@@ -3,7 +3,7 @@
 //     Copyright ® $registeredorganization$
 // </copyright>
 //-----------------------------------------------------------------------
-namespace EPapersoftWindowsService.IoC.ConfigurationHandler
+namespace $safeprojectname$.IoC.ConfigurationHandler
 {
     using System;
     using System.Configuration;

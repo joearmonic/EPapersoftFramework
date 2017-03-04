@@ -3,7 +3,7 @@
 //     Copyright ® $registeredorganization$
 // </copyright>
 //-----------------------------------------------------------------------
-namespace EPapersoftWindowsService.ConfigurationHandler.Cons
+namespace $safeprojectname$.ConfigurationHandler.Cons
 {
     internal struct SettingNames
     {

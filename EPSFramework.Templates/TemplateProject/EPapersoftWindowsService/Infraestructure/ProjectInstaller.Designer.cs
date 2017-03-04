@@ -1,4 +1,4 @@
-﻿namespace EPapersoftWindowsService.Infraestructure
+﻿namespace $safeprojectname$.Infraestructure
 {
     partial class ProjectInstaller
     {

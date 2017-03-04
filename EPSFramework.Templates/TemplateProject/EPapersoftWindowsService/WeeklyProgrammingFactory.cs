@@ -3,9 +3,9 @@
 //     Copyright ® $registeredorganization$
 // </copyright>
 //-----------------------------------------------------------------------
-namespace EPapersoftWindowsService
+namespace $safeprojectname$
 {
-    using EPapersoftWindowsService.Interfaces;
+    using $safeprojectname$.Interfaces;
 
     public class WeeklyProgrammingFactory : ProgrammingFactory
     {

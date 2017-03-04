@@ -17,10 +17,4 @@
 /EPSFramework.DAL/EPSFramework.DAL/obj/Debug
 /EPSFramework.DAL/EPSFramework.DAL/bin/Debug
 /Backup/
-/EPSFramework.Templates/EPapersoftWindowsService/bin/Debug
-/EPSFramework.Templates/EPapersoftWindowsService/obj/Debug
-/EPSFramework.Templates/EPapersoftWindowsService.FileWriter/bin/Debug
-/EPSFramework.Templates/EPapersoftWindowsService.FileWriter/obj/Debug
-/EPSFramework.Templates/EPapersoftWindowsService.IoC/obj/Debug
-/EPSFramework.Templates/packages/log4net.2.0.5
-/EPSFramework.Templates/EPapersoftWindowsService.IoC/bin/Debug
+/EPSFramework.Templates/Source/packages

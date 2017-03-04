@@ -7,8 +7,8 @@
     <ProjectGuid>{9F24CB5B-7230-4891-A605-76CF6AAC56BD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EPapersoftWindowsService</RootNamespace>
-    <AssemblyName>EPapersoftWindowsService</AssemblyName>
+    <RootNamespace>$safeprojectname$</RootNamespace>
+    <AssemblyName>$safeprojectname$</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -107,14 +107,14 @@
     </None>
     <Compile Include="IntervalProgrammingFactory.cs" />
     <None Include="packages.config" />
-    <None Include="EPapersoftWindowsService.exe.log4net">
+    <None Include="$safeprojectname$.exe.log4net">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EPapersoftWindowsService.IoC\EPapersoftWindowsService.IoC.csproj">
       <Project>{bf10aa47-a838-42e1-9096-7d37480c33f1}</Project>
-      <Name>EPapersoftWindowsService.IoC</Name>
+      <Name>%24safeprojectname%24.IoC</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

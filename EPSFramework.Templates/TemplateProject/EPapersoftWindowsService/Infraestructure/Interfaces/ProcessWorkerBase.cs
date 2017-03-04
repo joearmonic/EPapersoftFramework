@@ -3,7 +3,7 @@
 //     Copyright ® $registeredorganization$
 // </copyright>
 //-----------------------------------------------------------------------
-namespace EPapersoftWindowsService.Interfaces
+namespace $safeprojectname$.Interfaces
 {
     using System;
     using System.Collections.Concurrent;

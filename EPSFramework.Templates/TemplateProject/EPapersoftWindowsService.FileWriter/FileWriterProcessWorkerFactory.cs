@@ -1,4 +1,4 @@
-﻿namespace EPapersoftWindowsService.FileWriter
+﻿namespace $safeprojectname$.FileWriter
 {
     using Interfaces;
 
