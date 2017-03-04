@@ -40,6 +40,9 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\EPapersoftWindowsService\Properties\VersionInfo.cs">
+      <Link>Properties\VersionInfo.cs</Link>
+    </Compile>
     <Compile Include="ConfigurationHandler\ComponentElement.cs" />
     <Compile Include="ConfigurationHandler\DependenciesCollection.cs" />
     <Compile Include="ConfigurationHandler\DIComponentCollection.cs" />

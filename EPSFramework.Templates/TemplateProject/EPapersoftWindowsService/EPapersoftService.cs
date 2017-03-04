@@ -3,7 +3,7 @@
 //     Copyright ® $registeredorganization$
 // </copyright>
 //-----------------------------------------------------------------------
-namespace EPapersoftWindowsService
+namespace $safeprojectname$
 {
     using ConfigurationHandler;
     using Interfaces;

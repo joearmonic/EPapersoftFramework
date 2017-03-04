@@ -3,7 +3,7 @@
 //     Copyright ® $registeredorganization$
 // </copyright>
 //-----------------------------------------------------------------------
-namespace EPapersoftWindowsService.IoC
+namespace $safeprojectname$.IoC
 {
     using System;
     using System.ComponentModel.Composition;

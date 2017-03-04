@@ -6,7 +6,7 @@
 using System;
 using System.ComponentModel.Composition;
 
-namespace EPapersoftWindowsService.Interfaces
+namespace $safeprojectname$.Interfaces
 {
     [InheritedExport]
     public abstract class ProgrammingFactory

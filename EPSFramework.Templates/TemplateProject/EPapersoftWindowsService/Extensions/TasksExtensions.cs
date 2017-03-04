@@ -3,7 +3,7 @@
 //     Copyright ® $registeredorganization$
 // </copyright>
 //-----------------------------------------------------------------------
-namespace EPapersoftWindowsService.Extensions
+namespace $safeprojectname$.Extensions
 {
     using System;
     using System.Threading.Tasks;

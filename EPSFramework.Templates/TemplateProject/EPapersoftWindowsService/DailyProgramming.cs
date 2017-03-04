@@ -3,7 +3,7 @@
 //     Copyright ® $registeredorganization$
 // </copyright>
 //-----------------------------------------------------------------------
-namespace EPapersoftWindowsService
+namespace $safeprojectname$
 {
     using System;
     using System.Threading;
