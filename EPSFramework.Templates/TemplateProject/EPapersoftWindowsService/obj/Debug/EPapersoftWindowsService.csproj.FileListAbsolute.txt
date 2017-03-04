@@ -1,1 +1,0 @@
-D:\GitHub\EPapersoftFramework\EPSFramework.Templates\TemplateProject\EPapersoftWindowsService\bin\Debug\EPapersoftWindowsService.exe.config
