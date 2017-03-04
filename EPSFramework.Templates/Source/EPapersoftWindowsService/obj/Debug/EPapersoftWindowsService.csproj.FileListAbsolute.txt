@@ -1,0 +1,33 @@
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.exe.log4net
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\EPapersoftWindowsService.exe.config
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\EPapersoftWindowsService.exe
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\EPapersoftWindowsService.pdb
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\EpapersoftWindowsService.IoC.dll
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\log4net.dll
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\TIBFramework.Configuration.dll
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\EpapersoftWindowsService.IoC.pdb
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\log4net.xml
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\obj\Debug\EPapersoftWindowsService.csprojResolveAssemblyReference.cache
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\obj\Debug\EPapersoftWindowsService.Infraestructure.ProjectInstaller.resources
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\obj\Debug\EPapersoftWindowsService.csproj.GenerateResource.Cache
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\obj\Debug\EPapersoftWindowsService.exe
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\obj\Debug\EPapersoftWindowsService.pdb
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\TunstallWindowsService\bin\Debug\EPapersoftWindowsService.exe.config
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\TunstallWindowsService\obj\Debug\EPapersoftWindowsService.exe
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\TunstallWindowsService\obj\Debug\EPapersoftWindowsService.pdb
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\TunstallWindowsService\obj\Debug\EPapersoftWindowsService.csprojResolveAssemblyReference.cache
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\TunstallWindowsService\obj\Debug\EPapersoftWindowsService.Infraestructure.ProjectInstaller.resources
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\TunstallWindowsService\obj\Debug\EPapersoftWindowsService.csproj.GenerateResource.Cache
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\EPapersoftWindowsService\bin\Debug\EPapersoftWindowsService.exe.config
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\EPapersoftWindowsService\bin\Debug\EPapersoftWindowsService.exe
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\EPapersoftWindowsService\bin\Debug\EPapersoftWindowsService.pdb
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\EPapersoftWindowsService\bin\Debug\EpapersoftWindowsService.IoC.dll
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\EPapersoftWindowsService\bin\Debug\log4net.dll
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\EPapersoftWindowsService\bin\Debug\EpapersoftWindowsService.IoC.pdb
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\EPapersoftWindowsService\bin\Debug\log4net.xml
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\EPapersoftWindowsService\obj\Debug\EPapersoftWindowsService.csprojResolveAssemblyReference.cache
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\EPapersoftWindowsService\obj\Debug\EPapersoftWindowsService.Infraestructure.ProjectInstaller.resources
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\EPapersoftWindowsService\obj\Debug\EPapersoftWindowsService.csproj.GenerateResource.Cache
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\EPapersoftWindowsService\obj\Debug\EPapersoftWindowsService.exe
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\EPapersoftWindowsService\obj\Debug\EPapersoftWindowsService.pdb
+D:\GitHub\EPapersoftFramework\EPSFramework.Templates\EPapersoftWindowsService\bin\Debug\EPapersoftWindowsService.exe.log4net

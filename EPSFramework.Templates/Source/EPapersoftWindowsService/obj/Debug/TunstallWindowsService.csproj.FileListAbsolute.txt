@@ -1,0 +1,56 @@
+C:\Users\jlalamo\Documents\Visual Studio 2015\Templates\ProjectTemplates\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.exe.config
+C:\Users\jlalamo\Documents\Visual Studio 2015\Templates\ProjectTemplates\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.exe.log4net
+C:\Users\jlalamo\Documents\Visual Studio 2015\Templates\ProjectTemplates\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.exe
+C:\Users\jlalamo\Documents\Visual Studio 2015\Templates\ProjectTemplates\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.pdb
+C:\Users\jlalamo\Documents\Visual Studio 2015\Templates\ProjectTemplates\Templates design\TunstallWindowsService\bin\Debug\log4net.dll
+C:\Users\jlalamo\Documents\Visual Studio 2015\Templates\ProjectTemplates\Templates design\TunstallWindowsService\bin\Debug\TIBFramework.Configuration.dll
+C:\Users\jlalamo\Documents\Visual Studio 2015\Templates\ProjectTemplates\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.IoC.dll
+C:\Users\jlalamo\Documents\Visual Studio 2015\Templates\ProjectTemplates\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.IoC.pdb
+C:\Users\jlalamo\Documents\Visual Studio 2015\Templates\ProjectTemplates\Templates design\TunstallWindowsService\bin\Debug\log4net.xml
+C:\Users\jlalamo\Documents\Visual Studio 2015\Templates\ProjectTemplates\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.csprojResolveAssemblyReference.cache
+C:\Users\jlalamo\Documents\Visual Studio 2015\Templates\ProjectTemplates\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.Infraestructure.ProjectInstaller.resources
+C:\Users\jlalamo\Documents\Visual Studio 2015\Templates\ProjectTemplates\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.csproj.GenerateResource.Cache
+C:\Users\jlalamo\Documents\Visual Studio 2015\Templates\ProjectTemplates\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.exe
+C:\Users\jlalamo\Documents\Visual Studio 2015\Templates\ProjectTemplates\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.pdb
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.exe.config
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.exe.log4net
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.exe
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.pdb
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\log4net.dll
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\TIBFramework.Configuration.dll
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.IoC.dll
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.IoC.pdb
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\log4net.xml
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.csprojResolveAssemblyReference.cache
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.Infraestructure.ProjectInstaller.resources
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.csproj.GenerateResource.Cache
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.exe
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.pdb
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.exe.log4net
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.exe.config
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.exe
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.pdb
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\log4net.dll
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\TIBFramework.Configuration.dll
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.IoC.dll
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.IoC.pdb
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService\bin\Debug\log4net.xml
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.csprojResolveAssemblyReference.cache
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.Infraestructure.ProjectInstaller.resources
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.csproj.GenerateResource.Cache
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.exe
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.pdb
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.exe.log4net
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.exe.config
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.exe
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.pdb
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\log4net.dll
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\TIBFramework.Configuration.dll
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.IoC.dll
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\TunstallWindowsService.IoC.pdb
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\bin\Debug\log4net.xml
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.Infraestructure.ProjectInstaller.resources
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.csproj.GenerateResource.Cache
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.exe
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.pdb
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\obj\Debug\TunstallWindowsService.csprojResolveAssemblyReference.cache

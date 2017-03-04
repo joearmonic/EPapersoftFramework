@@ -1,0 +1,40 @@
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.exe.log4net
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.FileWriter.dll
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.FileWriter.pdb
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.exe
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\log4net.dll
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TIBFramework.Configuration.dll
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.IoC.dll
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.pdb
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\log4net.xml
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.IoC.pdb
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\obj\Debug\TunstallWindowsService.FileWriter.csprojResolveAssemblyReference.cache
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\obj\Debug\TunstallWindowsService.FileWriter.dll
+D:\Area\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\obj\Debug\TunstallWindowsService.FileWriter.pdb
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.exe.log4net
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\Tracing.config
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.FileWriter.dll
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.FileWriter.pdb
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.exe
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\log4net.dll
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TIBFramework.Configuration.dll
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.IoC.dll
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.pdb
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\log4net.xml
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.IoC.pdb
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\obj\Debug\TunstallWindowsService.FileWriter.csprojResolveAssemblyReference.cache
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\obj\Debug\TunstallWindowsService.FileWriter.dll
+D:\DataDirectory\DE MADPE019\Templates design\TunstallWindowsService.FileWriter\obj\Debug\TunstallWindowsService.FileWriter.pdb
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.exe.log4net
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService.FileWriter\bin\Debug\Tracing.config
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.FileWriter.dll
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.FileWriter.pdb
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.exe
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService.FileWriter\bin\Debug\log4net.dll
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.IoC.dll
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.pdb
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService.FileWriter\bin\Debug\log4net.xml
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService.FileWriter\bin\Debug\TunstallWindowsService.IoC.pdb
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService.FileWriter\obj\Debug\TunstallWindowsService.FileWriter.csprojResolveAssemblyReference.cache
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService.FileWriter\obj\Debug\TunstallWindowsService.FileWriter.dll
+D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService.FileWriter\obj\Debug\TunstallWindowsService.FileWriter.pdb
