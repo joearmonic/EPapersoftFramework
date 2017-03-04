@@ -1,0 +1,126 @@
+
+[1] 2017-01-19 08:24:51,852 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[1] 2017-01-19 08:24:52,132 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[1] 2017-01-19 08:27:38,373 INFO  TunstallService - (null) Workers configured and programmed to work.
+
+
+[1] 2017-01-19 08:27:44,085 INFO  TunstallService - (null) Service Stop has been commanded.
+
+[1] 2017-01-19 08:27:44,097 INFO  TunstallService - (null) There are 1 workers to stop. Proceding...
+
+[1] 2017-01-19 08:27:44,111 INFO  TunstallService - (null) All workers have been stopped.
+
+[1] 2017-01-19 08:27:44,111 INFO  TunstallService - (null) Service Stop command finished
+
+[1] 2017-01-19 08:27:59,011 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[1] 2017-01-19 08:27:59,084 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[1] 2017-01-19 08:28:05,651 INFO  TunstallService - (null) Workers configured and programmed to work.
+
+
+[1] 2017-01-19 08:49:34,651 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[1] 2017-01-19 08:49:34,726 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[1] 2017-01-19 08:50:28,562 INFO  TunstallService - (null) Workers configured and programmed to work.
+
+
+[1] 2017-01-19 10:34:44,625 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[1] 2017-01-19 10:34:44,700 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[1] 2017-01-19 10:34:44,715 INFO  TunstallService - (null) Workers configured and programmed to work.
+
+
+[1] 2017-01-19 10:37:58,649 INFO  TunstallService - (null) Service Stop has been commanded.
+
+[1] 2017-01-19 10:37:58,651 INFO  TunstallService - (null) There are 1 workers to stop. Proceding...
+
+[1] 2017-01-19 10:37:58,666 INFO  TunstallService - (null) All workers have been stopped.
+
+[1] 2017-01-19 10:37:58,667 INFO  TunstallService - (null) Service Stop command finished
+
+[1] 2017-01-19 10:38:24,020 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[1] 2017-01-19 10:38:24,118 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[1] 2017-01-19 10:38:24,132 INFO  TunstallService - (null) Workers configured and programmed to work.
+
+
+[1] 2017-01-19 10:39:44,206 INFO  TunstallService - (null) Service Stop has been commanded.
+
+[1] 2017-01-19 10:39:44,208 INFO  TunstallService - (null) There are 1 workers to stop. Proceding...
+
+[1] 2017-01-19 10:39:44,210 INFO  TunstallService - (null) All workers have been stopped.
+
+[1] 2017-01-19 10:39:44,210 INFO  TunstallService - (null) Service Stop command finished
+
+[1] 2017-01-19 10:40:05,258 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[1] 2017-01-19 10:40:05,316 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[1] 2017-01-19 10:40:05,326 INFO  TunstallService - (null) Workers configured and programmed to work.
+
+
+[1] 2017-01-19 23:42:25,153 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[1] 2017-01-19 23:42:25,348 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[1] 2017-01-19 23:42:25,438 INFO  TunstallService - (null) Workers configured and programmed to work.
+
+
+[1] 2017-01-19 23:43:19,886 INFO  TunstallService - (null) Service Stop has been commanded.
+
+[1] 2017-01-19 23:43:19,899 INFO  TunstallService - (null) There are 1 programmed workers to stop. Proceding...
+
+[1] 2017-01-19 23:43:19,900 INFO  TunstallService - (null) All workers have been stopped.
+
+[1] 2017-01-19 23:43:19,900 INFO  TunstallService - (null) Service Stop command finished
+
+[1] 2017-01-19 23:43:53,659 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[1] 2017-01-19 23:43:53,714 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[1] 2017-01-19 23:43:53,723 INFO  TunstallService - (null) Workers configured and programmed to work.
+
+
+[1] 2017-01-19 23:47:29,606 INFO  TunstallService - (null) Service Stop has been commanded.
+
+[1] 2017-01-19 23:47:29,608 INFO  TunstallService - (null) There are 1 programmed workers to stop. Proceding...
+
+[1] 2017-01-19 23:47:29,609 INFO  TunstallService - (null) All workers have been stopped.
+
+[1] 2017-01-19 23:47:29,610 INFO  TunstallService - (null) Service Stop command finished
+
+[1] 2017-01-19 23:50:56,513 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[1] 2017-01-19 23:50:56,572 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[1] 2017-01-19 23:50:56,581 INFO  TunstallService - (null) 19/01/2017 23:59:59
+
+[1] 2017-01-19 23:50:56,582 INFO  TunstallService - (null) Workers configured and programmed to work.
+
+
+[1] 2017-01-19 23:51:15,072 INFO  TunstallService - (null) Service Stop has been commanded.
+
+[1] 2017-01-19 23:51:15,073 INFO  TunstallService - (null) There are 1 programmed workers to stop. Proceding...
+
+[1] 2017-01-19 23:51:15,074 INFO  TunstallService - (null) All workers have been stopped.
+
+[1] 2017-01-19 23:51:15,075 INFO  TunstallService - (null) Service Stop command finished
+
+[1] 2017-01-19 23:51:40,705 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[1] 2017-01-19 23:51:40,770 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[1] 2017-01-19 23:51:40,781 INFO  TunstallService - (null) 19/01/2017 23:59:59
+
+[1] 2017-01-19 23:51:40,781 INFO  TunstallService - (null) Workers configured and programmed to work.
+
+
+[1] 2017-01-19 23:52:04,476 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[1] 2017-01-19 23:52:04,541 DEBUG TunstallService - (null) Programming filewriter worker process

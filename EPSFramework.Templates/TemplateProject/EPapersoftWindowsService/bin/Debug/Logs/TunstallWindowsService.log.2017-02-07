@@ -1,0 +1,115 @@
+
+[9] 2017-02-07 08:32:16,250 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[9] 2017-02-07 08:32:16,319 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[9] 2017-02-07 08:32:23,584 ERROR TunstallService - (null)  failed to start.
+System.ArgumentOutOfRangeException: El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: A daily programming couldn`t defined its interval below or above 1 day
+   en TunstallWindowsService.DailyProgramming.SetupSchedule() en D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\DailyProgramming.cs:línea 30
+   en TunstallWindowsService.Interfaces.Programming.Go() en D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\Infraestructure\Programming.cs:línea 90
+   en TunstallWindowsService.TunstallService.<OnStart>b__6_0(WorkerSettings workerSettings) en D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\TunstallService.cs:línea 103
+
+[9] 2017-02-07 08:32:23,876 WARN  TunstallService - (null) There are no workers programmed. No activity will be done!
+
+
+[9] 2017-02-07 08:32:27,420 INFO  TunstallService - (null) Service Stop has been commanded.
+
+[9] 2017-02-07 08:32:27,433 INFO  TunstallService - (null) There are 0 programmed workers to stop. Proceding...
+
+[9] 2017-02-07 08:32:27,435 INFO  TunstallService - (null) All workers have been stopped.
+
+[9] 2017-02-07 08:32:27,436 INFO  TunstallService - (null) Service Stop command finished
+
+[10] 2017-02-07 08:32:40,621 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[10] 2017-02-07 08:32:40,684 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[10] 2017-02-07 08:32:40,751 ERROR TunstallService - (null)  failed to start.
+System.ArgumentOutOfRangeException: El argumento especificado está fuera del intervalo de valores válidos.
+Nombre del parámetro: A daily programming couldn`t defined its interval below or above 1 day
+   en TunstallWindowsService.DailyProgramming.SetupSchedule() en D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\DailyProgramming.cs:línea 30
+   en TunstallWindowsService.Interfaces.Programming.Go() en D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\Infraestructure\Programming.cs:línea 90
+   en TunstallWindowsService.TunstallService.<OnStart>b__6_0(WorkerSettings workerSettings) en D:\GitHub\EPapersoftFramework\Templates design\TunstallWindowsService\TunstallService.cs:línea 103
+
+[10] 2017-02-07 08:32:40,928 WARN  TunstallService - (null) There are no workers programmed. No activity will be done!
+
+
+[10] 2017-02-07 08:32:47,408 INFO  TunstallService - (null) Service Stop has been commanded.
+
+[10] 2017-02-07 08:32:47,410 INFO  TunstallService - (null) There are 0 programmed workers to stop. Proceding...
+
+[10] 2017-02-07 08:32:47,411 INFO  TunstallService - (null) All workers have been stopped.
+
+[10] 2017-02-07 08:32:47,412 INFO  TunstallService - (null) Service Stop command finished
+
+[10] 2017-02-07 08:33:01,615 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[10] 2017-02-07 08:33:01,667 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[9] 2017-02-07 08:38:17,563 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[9] 2017-02-07 08:38:17,624 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[9] 2017-02-07 08:38:34,609 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[9] 2017-02-07 08:38:34,656 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[9] 2017-02-07 08:38:55,213 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[9] 2017-02-07 08:38:55,263 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[9] 2017-02-07 08:39:36,879 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[9] 2017-02-07 08:39:36,929 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[9] 2017-02-07 08:40:17,677 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[9] 2017-02-07 08:40:17,726 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[9] 2017-02-07 11:02:25,462 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[9] 2017-02-07 11:02:25,633 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[9] 2017-02-07 11:02:57,953 INFO  TunstallService - (null) 07/02/2017 23:34:16
+
+[9] 2017-02-07 11:02:57,954 INFO  TunstallService - (null) Workers configured and programmed to work.
+
+
+[9] 2017-02-07 11:03:00,404 INFO  TunstallService - (null) Service Stop has been commanded.
+
+[9] 2017-02-07 11:03:00,406 INFO  TunstallService - (null) There are 1 programmed workers to stop. Proceding...
+
+[9] 2017-02-07 11:03:00,408 INFO  TunstallService - (null) All workers have been stopped.
+
+[9] 2017-02-07 11:03:00,409 INFO  TunstallService - (null) Service Stop command finished
+
+[10] 2017-02-07 11:03:20,599 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[10] 2017-02-07 11:03:20,648 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[10] 2017-02-07 11:03:25,427 INFO  TunstallService - (null) 07/02/2017 11:05:00
+
+[10] 2017-02-07 11:03:25,428 INFO  TunstallService - (null) Workers configured and programmed to work.
+
+
+[10] 2017-02-07 11:17:12,919 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[10] 2017-02-07 11:17:12,981 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[9] 2017-02-07 11:17:56,719 INFO  TunstallService - (null) Starting application. Configuring workers...
+
+[9] 2017-02-07 11:17:56,775 DEBUG TunstallService - (null) Programming filewriter worker process
+
+[9] 2017-02-07 13:29:30,939 INFO  TunstallService - (null) 08/02/2017 11:05:00
+
+[9] 2017-02-07 13:29:30,946 INFO  TunstallService - (null) Workers configured and programmed to work.
+
+
+[9] 2017-02-07 15:01:33,172 INFO  TunstallService - (null) Service Stop has been commanded.
+
+[9] 2017-02-07 15:01:33,274 INFO  TunstallService - (null) There are 1 programmed workers to stop. Proceding...
+
+[9] 2017-02-07 15:01:33,299 INFO  TunstallService - (null) All workers have been stopped.
+
+[9] 2017-02-07 15:01:33,300 INFO  TunstallService - (null) Service Stop command finished
