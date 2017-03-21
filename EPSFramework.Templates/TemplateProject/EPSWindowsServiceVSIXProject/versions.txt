@@ -1,0 +1,6 @@
+EPapersoft WindowsService VS Template™ Release Notes
+
+1.0.0.0
+Initial version with Windows Service fully customizable with Programming objects and Interval, Daily and Weekly timers.
+Inversion of Control container based on MEF 2.0 for every object.
+Modular architecture that only requires a new project that references main Service project to get The interfaces to implement.

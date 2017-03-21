@@ -35,10 +35,6 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.configuration" />
@@ -106,15 +102,14 @@
       <SubType>Designer</SubType>
     </None>
     <Compile Include="IntervalProgrammingFactory.cs" />
-    <None Include="packages.config" />
     <None Include="$safeprojectname$.exe.log4net">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EPapersoftWindowsService.IoC\EPapersoftWindowsService.IoC.csproj">
-      <Project>{bf10aa47-a838-42e1-9096-7d37480c33f1}</Project>
-      <Name>%24safeprojectname%24.IoC</Name>
+    <ProjectReference Include="..\$ext_safeprojectname$.IoC\$ext_safeprojectname$.IoC.csproj">
+      <Project>{$guid2$}</Project>
+      <Name>$ext_safeprojectname$.IoC</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

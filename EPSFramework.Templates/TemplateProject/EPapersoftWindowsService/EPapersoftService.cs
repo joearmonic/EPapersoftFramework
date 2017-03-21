@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="$fileinputname$.cs" company="$registeredorganization$">
+// <copyright file="$fileinputname$" company="EPapersoft">
 //     Copyright ® $registeredorganization$
 // </copyright>
 //-----------------------------------------------------------------------
