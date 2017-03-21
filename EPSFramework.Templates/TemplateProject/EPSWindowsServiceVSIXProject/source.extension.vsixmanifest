@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" ?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="EPSTemplateWS.789bb006-b7c5-4c3f-913e-ec1d155f56ae" Version="1.0" Language="en-US" Publisher="EPapersoft" />
+    <DisplayName>EPSWindowsServiceVSIXProject</DisplayName>
+    <Description xml:space="preserve">An extension to provide a customized Windows service with programming infraestructure to let the developer focus in the real task that the application should do. It includes dependency inversion via its own IoC based on MEF 2.0.</Description>
+    <MoreInfo>https://lapaelladelosjueves.wordpress.com/</MoreInfo>
+    <License>gpl-3.0.md</License>
+    <ReleaseNotes>versions.txt</ReleaseNotes>
+    <Tags>WindowsServices ProcessWorker Programming Daily Weekly Interval</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[14.0,15.0)" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    <Dependency d:Source="Installed" Id="NuGet.0d421874-a3b2-4f67-b53a-ecfce878063b" DisplayName="NuGet Package Manager for Visual Studio 2015" Version="[3.5.0.1484,4.0)" />
+  </Dependencies>
+  <Assets>
+    <Asset d:Source="File" Type="log4net.2.0.5.nupkg" Path="Packages\log4net.2.0.5.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="EPapersoftWindowsServiceTemplateWizard" Path="|EPapersoftWindowsServiceTemplateWizard|" AssemblyName="|EPapersoftWindowsServiceTemplateWizard;AssemblyName|" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\EPapersoftWindowsServiceSolution.zip" />
+  </Assets>
+</PackageManifest>
