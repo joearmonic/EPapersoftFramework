@@ -8,9 +8,9 @@ using System.ComponentModel.Composition;
 namespace EPapersoftWindowsService.Interfaces
 {
     [InheritedExport]
-    public abstract class ProcessWorkerFactory
+    public abstract class ProcessWorkerBaseFactory
     {
-        public ProcessWorkerFactory()
+        public ProcessWorkerBaseFactory()
         {
         }
 

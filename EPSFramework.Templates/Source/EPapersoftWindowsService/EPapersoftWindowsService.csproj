@@ -73,7 +73,7 @@
     <Compile Include="Infraestructure\Interfaces\ProcessWorkerBase.cs" />
     <Compile Include="Infraestructure\Programming.cs" />
     <Compile Include="Infraestructure\Interfaces\ProgrammingFactory.cs" />
-    <Compile Include="Infraestructure\Interfaces\ProcessWorkerFactory.cs" />
+    <Compile Include="Infraestructure\Interfaces\ProcessWorkerBaseFactory.cs" />
     <Compile Include="Infraestructure\ProjectInstaller.cs">
       <SubType>Component</SubType>
     </Compile>
