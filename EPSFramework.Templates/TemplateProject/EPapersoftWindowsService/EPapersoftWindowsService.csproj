@@ -44,49 +44,49 @@
     <Reference Include="System.ServiceProcess" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConfigurationHandler\Sections\ActivitiesSectionGroup.cs" />
-    <Compile Include="ConfigurationHandler\ActivitiesSettings.cs" />
-    <Compile Include="ConfigurationHandler\Collections\DaysOfTheWeekCollection.cs" />
-    <Compile Include="ConfigurationHandler\Elements\AppointmentElement.cs" />
-    <Compile Include="ConfigurationHandler\Elements\DayOfWeekElement.cs" />
-    <Compile Include="ConfigurationHandler\Elements\ProgrammingElement.cs" />
-    <Compile Include="ConfigurationHandler\ServiceConfiguration.cs" />
-    <Compile Include="ConfigurationHandler\Collections\ActivitySettingsCollection.cs" />
-    <Compile Include="ConfigurationHandler\Collections\WorkerCollection.cs" />
-    <Compile Include="ConfigurationHandler\Const\Cons.cs" />
-    <Compile Include="ConfigurationHandler\Elements\ActivitiesSettingElement.cs" />
-    <Compile Include="ConfigurationHandler\Elements\TimeElement.cs" />
-    <Compile Include="ConfigurationHandler\Elements\WorkerElement.cs" />
-    <Compile Include="ConfigurationHandler\Sections\ActivitiesSettingSection.cs" />
-    <Compile Include="ConfigurationHandler\Sections\EPapersoftServiceSection.cs" />
-    <Compile Include="ConfigurationHandler\WorkerSettings.cs" />
-    <Compile Include="WeeklyProgramming.cs" />
-    <Compile Include="DailyProgramming.cs" />
-    <Compile Include="WeeklyProgrammingFactory.cs" />
-    <Compile Include="IntervalProgramming.cs" />
-    <Compile Include="Extensions\TasksExtensions.cs" />
-    <Compile Include="Infraestructure\Interfaces\IWorkerSettings.cs" />
-    <Compile Include="Infraestructure\Interfaces\ProcessWorkerBase.cs" />
-    <Compile Include="Infraestructure\Programming.cs" />
-    <Compile Include="Infraestructure\Interfaces\ProgrammingFactory.cs" />
-    <Compile Include="Infraestructure\Interfaces\ProcessWorkerFactory.cs" />
-    <Compile Include="Infraestructure\ProjectInstaller.cs">
+    <None Include="ConfigurationHandler\Sections\ActivitiesSectionGroup.cs" />
+    <None Include="ConfigurationHandler\ActivitiesSettings.cs" />
+    <None Include="ConfigurationHandler\Collections\DaysOfTheWeekCollection.cs" />
+    <None Include="ConfigurationHandler\Elements\AppointmentElement.cs" />
+    <None Include="ConfigurationHandler\Elements\DayOfWeekElement.cs" />
+    <None Include="ConfigurationHandler\Elements\ProgrammingElement.cs" />
+    <None Include="ConfigurationHandler\ServiceConfiguration.cs" />
+    <None Include="ConfigurationHandler\Collections\ActivitySettingsCollection.cs" />
+    <None Include="ConfigurationHandler\Collections\WorkerCollection.cs" />
+    <None Include="ConfigurationHandler\Const\Cons.cs" />
+    <None Include="ConfigurationHandler\Elements\ActivitiesSettingElement.cs" />
+    <None Include="ConfigurationHandler\Elements\TimeElement.cs" />
+    <None Include="ConfigurationHandler\Elements\WorkerElement.cs" />
+    <None Include="ConfigurationHandler\Sections\ActivitiesSettingSection.cs" />
+    <None Include="ConfigurationHandler\Sections\EPapersoftServiceSection.cs" />
+    <None Include="ConfigurationHandler\WorkerSettings.cs" />
+    <None Include="WeeklyProgramming.cs" />
+    <None Include="DailyProgramming.cs" />
+    <None Include="WeeklyProgrammingFactory.cs" />
+    <None Include="IntervalProgramming.cs" />
+    <None Include="Extensions\TasksExtensions.cs" />
+    <None Include="Infraestructure\Interfaces\IWorkerSettings.cs" />
+    <None Include="Infraestructure\Interfaces\ProcessWorkerBase.cs" />
+    <None Include="Infraestructure\Programming.cs" />
+    <None Include="Infraestructure\Interfaces\ProgrammingFactory.cs" />
+    <None Include="Infraestructure\Interfaces\ProcessWorkerFactory.cs" />
+    <None Include="Infraestructure\ProjectInstaller.cs">
       <SubType>Component</SubType>
-    </Compile>
+    </None>
     <Compile Include="Infraestructure\ProjectInstaller.Designer.cs">
       <DependentUpon>ProjectInstaller.cs</DependentUpon>
     </Compile>
-    <Compile Include="DailyProgrammingFactory.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpinAnimation.cs" />
-    <Compile Include="EPapersoftService.cs">
+    <None Include="DailyProgrammingFactory.cs" />
+    <None Include="Program.cs" />
+    <None Include="Properties\AssemblyInfo.cs" />
+    <None Include="SpinAnimation.cs" />
+    <None Include="EPapersoftService.cs">
       <SubType>Component</SubType>
-    </Compile>
+    </None>
     <Compile Include="EPapersoftService.designer.cs">
       <DependentUpon>EPapersoftService.cs</DependentUpon>
     </Compile>
-    <Compile Include="Properties\VersionInfo.cs" />
+    <None Include="Properties\VersionInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Infraestructure\ProjectInstaller.resx">
@@ -101,7 +101,7 @@
     <None Include="ConfigurationHandler\Schemas\EPapersoftServiceSection.xsd">
       <SubType>Designer</SubType>
     </None>
-    <Compile Include="IntervalProgrammingFactory.cs" />
+    <None Include="IntervalProgrammingFactory.cs" />
     <None Include="$safeprojectname$.exe.log4net">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

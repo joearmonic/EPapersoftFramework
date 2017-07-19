@@ -2,7 +2,7 @@
 {
     using Interfaces;
 
-    public class FileWriterProcessWorkerFactory : ProcessWorkerFactory
+    public class FileWriterProcessWorkerFactory : ProcessWorkerBaseFactory
     {
         public override ProcessWorkerBase CreateWorker()
         {

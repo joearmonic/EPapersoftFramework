@@ -24,7 +24,7 @@ namespace EPapersoftWindowsService
     {
         private readonly ILog logger = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
-        private IEnumerable<Lazy<ProcessWorkerFactory, IDictionary<string, object>>> workerfactories;
+        private IEnumerable<Lazy<ProcessWorkerBaseFactory, IDictionary<string, object>>> workerfactories;
 
         private IEnumerable<ProgrammingFactory> alarmClockFactories;
 
@@ -38,7 +38,7 @@ namespace EPapersoftWindowsService
         /// <param name="factories">The factories for process workers.</param>
         /// <param name="programmingfactories">The programming factories.</param>
         [ImportingConstructor]
-        public EPapersoftService([ImportMany] IEnumerable<Lazy<ProcessWorkerFactory, IDictionary<string, object>>> factories,
+        public EPapersoftService([ImportMany] IEnumerable<Lazy<ProcessWorkerBaseFactory, IDictionary<string, object>>> factories,
             [ImportMany] IEnumerable<ProgrammingFactory> programmingfactories
             ) : base()
         {

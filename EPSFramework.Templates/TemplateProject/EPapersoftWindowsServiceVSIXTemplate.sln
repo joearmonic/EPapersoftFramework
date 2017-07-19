@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPSWindowsServiceVSIXProject", "EPSWindowsServiceVSIXProject\EPSWindowsServiceVSIXProject.csproj", "{57FFF670-A774-41C6-A56C-5D99C7CB4F34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPapersoftWindowsServiceTemplateWizard", "EPapersoftWindowsServiceWizard\EPapersoftWindowsServiceTemplateWizard.csproj", "{83FB425C-7432-4870-BB2A-70B6C67D18E0}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "EPapersoft.Framework.VisualStudioEnvironment", "EPapersoft.Framework.VisualStudioEnvironment\EPapersoft.Framework.VisualStudioEnvironment.shproj", "{FFC16E81-86FC-4803-8A84-35DAD463739D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPapersoftWindowsService.WorkerModuleTemplate", "EPapersoftWindowsService.WorkerModule\EPapersoftWindowsService.WorkerModuleTemplate.csproj", "{A3C895AD-2FF9-4AC9-9CBB-94E6B68B138A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPapersoftWindowsServiceTemplate", "EPapersoftWindowsServiceTemplate\EPapersoftWindowsServiceTemplate.csproj", "{0614EA85-3A85-4B57-88D2-46A89DFA0AA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPapersoftWindowsService.IoCTemplate", "EPapersoftWindowsService.IoCTemplate\EPapersoftWindowsService.IoCTemplate.csproj", "{2DFE6696-217D-4948-9417-123809D5ACCD}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		EPapersoft.Framework.VisualStudioEnvironment\EPapersoft.Framework.VisualStudioEnvironment.projitems*{83fb425c-7432-4870-bb2a-70b6c67d18e0}*SharedItemsImports = 4
+		EPapersoft.Framework.VisualStudioEnvironment\EPapersoft.Framework.VisualStudioEnvironment.projitems*{ffc16e81-86fc-4803-8a84-35dad463739d}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57FFF670-A774-41C6-A56C-5D99C7CB4F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FFF670-A774-41C6-A56C-5D99C7CB4F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FFF670-A774-41C6-A56C-5D99C7CB4F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FFF670-A774-41C6-A56C-5D99C7CB4F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83FB425C-7432-4870-BB2A-70B6C67D18E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83FB425C-7432-4870-BB2A-70B6C67D18E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83FB425C-7432-4870-BB2A-70B6C67D18E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83FB425C-7432-4870-BB2A-70B6C67D18E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C895AD-2FF9-4AC9-9CBB-94E6B68B138A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C895AD-2FF9-4AC9-9CBB-94E6B68B138A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C895AD-2FF9-4AC9-9CBB-94E6B68B138A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C895AD-2FF9-4AC9-9CBB-94E6B68B138A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0614EA85-3A85-4B57-88D2-46A89DFA0AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0614EA85-3A85-4B57-88D2-46A89DFA0AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0614EA85-3A85-4B57-88D2-46A89DFA0AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0614EA85-3A85-4B57-88D2-46A89DFA0AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DFE6696-217D-4948-9417-123809D5ACCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFE6696-217D-4948-9417-123809D5ACCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFE6696-217D-4948-9417-123809D5ACCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFE6696-217D-4948-9417-123809D5ACCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>EPapersoftWindowsService.IoCTemplate</Name>
+    <Description>EPapersoftWindowsService.IoCTemplate</Description>
+    <Icon>EPapersoftWindowsService.IoCTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>8c3c63c2-957e-418a-81f8-ece41a8f4bd2</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EPapersoftWindowsService.IoCTemplate</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+    <CreateInPlace>true</CreateInPlace>
+    <Hidden>true</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="EPapersoftWindowsService.IoC.csproj" File="EPapersoftWindowsService.IoC.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <Folder Name="ConfigurationHandler" TargetFolderName="ConfigurationHandler">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ComponentElement.cs">ComponentElement.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DependenciesCollection.cs">DependenciesCollection.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DIComponentCollection.cs">DIComponentCollection.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DIComponentHandler.cs">DIComponentHandler.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DIComponentSection.cs">DIComponentSection.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IOC.Section.xsd">IOC.Section.xsd</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MappingElement.cs">MappingElement.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ContainerBootstrap.cs">ContainerBootstrap.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ExternalSourceCatalog.cs">ExternalSourceCatalog.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>EPapersoftWindowsServiceTemplateWizard, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=7c395dd7a611176b</Assembly>
+    <FullClassName>EPapersoftWindowsServiceTemplateWizard.ProjectsWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

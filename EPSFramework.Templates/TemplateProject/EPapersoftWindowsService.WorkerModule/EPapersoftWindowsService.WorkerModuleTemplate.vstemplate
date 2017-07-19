@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>EPapersoftWindowsService.WorkerModule</Name>
+    <Description>EPapersoftWindowsService.WorkerModule</Description>
+    <Icon>EPapersoftWindowsService.WorkerModule.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>EPapersoft</ProjectSubType>
+    <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>9008adcb-0f9c-4da9-85ee-5a4ce642e804</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EPapersoftWindowsService.WorkerModule</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  <CreateInPlace>true</CreateInPlace>
+    <BuildProjectOnLoad>true</BuildProjectOnLoad>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="EPapersoftWindowsService.WorkerModule.csproj" TargetFileName="EPapersoftWindowsService.WorkerModule.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">ProcessWorker.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true">ProcessWorkerFactory.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>EPapersoftWindowsServiceTemplateWizard, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=7c395dd7a611176b</Assembly>
+    <FullClassName>EPapersoftWindowsServiceTemplateWizard.ProjectsWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

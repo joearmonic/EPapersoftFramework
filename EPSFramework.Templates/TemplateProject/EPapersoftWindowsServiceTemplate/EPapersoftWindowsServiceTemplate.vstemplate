@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>EPapersoftWindowsServiceTemplate</Name>
+    <Description>The service</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+      EPapersoft
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EPapersoftWindowsService</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+    <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+    <TemplateID>091fcaeb-530f-4c2c-a201-c6f92ff77f81</TemplateID>
+    <Icon>EPapersoftWindowsServiceTemplate.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="EPapersoftWindowsService.csproj" File="EPapersoftWindowsService.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.exe.log4net">$safeprojectname$.exe.log4net</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <Folder Name="ConfigurationHandler" TargetFolderName="ConfigurationHandler">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ActivitiesSettings.cs">ActivitiesSettings.cs</ProjectItem>
+        <Folder Name="Collections" TargetFolderName="Collections">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ActivitySettingsCollection.cs">ActivitySettingsCollection.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="DaysOfTheWeekCollection.cs">DaysOfTheWeekCollection.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="WorkerCollection.cs">WorkerCollection.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Const" TargetFolderName="Const">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Cons.cs">Cons.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Elements" TargetFolderName="Elements">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ActivitiesSettingElement.cs">ActivitiesSettingElement.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="AppointmentElement.cs">AppointmentElement.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="DayOfWeekElement.cs">DayOfWeekElement.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ProgrammingElement.cs">ProgrammingElement.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="TimeElement.cs">TimeElement.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="WorkerElement.cs">WorkerElement.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Schemas" TargetFolderName="Schemas">
+          <ProjectItem ReplaceParameters="true" TargetFileName="EPapersoftServiceSection.xsd">EPapersoftServiceSection.xsd</ProjectItem>
+        </Folder>
+        <Folder Name="Sections" TargetFolderName="Sections">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ActivitiesSectionGroup.cs">ActivitiesSectionGroup.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ActivitiesSettingSection.cs">ActivitiesSettingSection.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="EPapersoftServiceSection.cs">EPapersoftServiceSection.cs</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ServiceConfiguration.cs">ServiceConfiguration.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WorkerSettings.cs">WorkerSettings.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DailyProgramming.cs">DailyProgramming.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DailyProgrammingFactory.cs">DailyProgrammingFactory.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EPapersoftService.cs">EPapersoftService.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EPapersoftService.designer.cs">EPapersoftService.designer.cs</ProjectItem>
+      <Folder Name="Extensions" TargetFolderName="Extensions">
+        <ProjectItem ReplaceParameters="true" TargetFileName="TasksExtensions.cs">TasksExtensions.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Infraestructure" TargetFolderName="Infraestructure">
+        <Folder Name="Interfaces" TargetFolderName="Interfaces">
+          <ProjectItem ReplaceParameters="true" TargetFileName="IWorkerSettings.cs">IWorkerSettings.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ProcessWorkerBase.cs">ProcessWorkerBase.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ProcessWorkerBaseFactory.cs">ProcessWorkerBaseFactory.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ProgrammingFactory.cs">ProgrammingFactory.cs</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Programming.cs">Programming.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ProjectInstaller.cs">ProjectInstaller.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ProjectInstaller.Designer.cs">ProjectInstaller.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ProjectInstaller.resx">ProjectInstaller.resx</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IntervalProgramming.cs">IntervalProgramming.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IntervalProgrammingFactory.cs">IntervalProgrammingFactory.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\VersionInfo.cs">VersionInfo.cs</ProjectItem>      
+      
+      <ProjectItem ReplaceParameters="true" TargetFileName="SpinAnimation.cs">SpinAnimation.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WeeklyProgramming.cs">WeeklyProgramming.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WeeklyProgrammingFactory.cs">WeeklyProgrammingFactory.cs</ProjectItem>
+    </Project>
+    <CustomParameters>
+      <CustomParameter Name="$loadnugetwizard$" Value="true" />
+    </CustomParameters>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>EPapersoftWindowsServiceTemplateWizard, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=7c395dd7a611176b</Assembly>
+    <FullClassName>EPapersoftWindowsServiceTemplateWizard.ProjectsWizard</FullClassName>
+  </WizardExtension>
+  <!-- Nuget are launch from within EpapersoftWindowsServiceTemplateWizard. -->
+  <WizardData>
+    <packages repository="extension" repositoryId="EPSTemplateWS.789bb006-b7c5-4c3f-913e-ec1d155f56ae">
+      <package id="log4net" version="2.0.5" />
+    </packages>
+    <Dependencies>
+      <templates>
+        <dependent suffixToAdd=".IoC">EPapersoftWindowsService.IoCTemplate</dependent>
+        <dependent suffixToAdd=".WorkerModule">EPapersoftWindowsService.WorkerModuleTemplate</dependent>
+      </templates>
+    </Dependencies>
+  </WizardData>
+</VSTemplate>

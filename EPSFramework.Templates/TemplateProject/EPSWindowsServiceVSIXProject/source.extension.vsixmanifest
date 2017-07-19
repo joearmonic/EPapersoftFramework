@@ -19,6 +19,7 @@
   <Assets>
     <Asset d:Source="File" Type="log4net.2.0.5.nupkg" Path="Packages\log4net.2.0.5.nupkg" d:VsixSubPath="Packages" />
     <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="EPapersoftWindowsServiceTemplateWizard" Path="|EPapersoftWindowsServiceTemplateWizard|" AssemblyName="|EPapersoftWindowsServiceTemplateWizard;AssemblyName|" />
-    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\EPapersoftWindowsServiceSolution.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="EPapersoftWindowsService.IoCTemplate" d:TargetPath="|EPapersoftWindowsService.IoCTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="EPapersoftWindowsServiceTemplate" d:TargetPath="|EPapersoftWindowsServiceTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
   </Assets>
 </PackageManifest>
