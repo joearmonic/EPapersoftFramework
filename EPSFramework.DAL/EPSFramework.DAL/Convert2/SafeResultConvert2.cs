@@ -37,9 +37,13 @@ namespace EPSFramework.DAL.Convert2
                 return null;
             }
             else if (typeToExport.IsNullable())
-            {
-                Type valueTypeOfNullable = typeToExport.UnboxNullableArgument();
-                returnElement = Convert.ChangeType(elementValue, valueTypeOfNullable);
+            {	
+				 Type valueTypeOfNullable = typeToExport.UnboxNullableArgument();
+                if(valueTypeOfNullable is IConvertible)
+                    return Convert.ChangeType(elementValue, valueTypeOfNullable);
+
+                // Those types that don't implement IConvertible usually have a method commonly called "Parse". Examples are Guid.Parse or Enum.Parse.
+                return (dynamic) valueTypeOfNullable.GetMethod("Parse").Invoke(null, new string[] { elementValue.ToString() });
             }
             else
             {
